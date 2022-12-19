@@ -1,0 +1,88 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: "https://fonts.google.com/specimen/Outfit";
+}
+
+.container {
+    padding: 0%;
+    margin: 0%;
+    width: 1440px;
+    height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(217, 54%, 11%);
+}
+
+.card {
+    padding: 20px;
+    width: 300px;
+    height: 550px;
+    background-color: hsl(216, 50%, 16%);
+    color: hsl(215, 51%, 70%);
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+#eth {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.details {
+    height: 150px;
+    margin-bottom: 20px;
+}
+.details #equi {
+    font-weight: 600;
+    color: hsl(0, 0%, 100%);
+}
+
+.tags {
+    display: flex;
+    align-items: center;
+    font-weight: 300;
+}
+
+.tags img {
+    width: 23px;
+    height: 23px;
+    margin-right: 10px;
+}
+.tags p:nth-child(2) {
+    color: hsl(178, 100%, 50%);
+    margin-right: 80px;
+}
+
+.tags img:nth-child(1){
+    height: 25px;
+}
+.creator {
+    display: flex;
+    align-items: center;
+    border-top: 1.5px hsl(215, 32%, 27%) solid;
+    border-color: hsl(215, 32%, 27%);
+    padding-top: 5px;
+}
+
+.creator #name {
+    color: hsl(0, 0%, 100%);
+    padding-left: 7px;
+}
+
+.pic {
+    width: 42px;
+    height: 42px;
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin-right: 13px;
+}
+#pp {
+    width: 40px;
+    height: 40px;
+}
