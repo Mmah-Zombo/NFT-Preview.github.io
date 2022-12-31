@@ -1,7 +1,7 @@
 body {
     margin: 0px;
     padding: 0px;
-    font-family: "https://fonts.google.com/specimen/Outfit";
+    
 }
 
 .container {
@@ -23,6 +23,7 @@ body {
     color: hsl(215, 51%, 70%);
     font-size: 18px;
     border-radius: 10px;
+    font-family: url(https://fonts.google.com/specimen/Outfit);
 }
 
 #eth {
